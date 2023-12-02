@@ -1,0 +1,32 @@
+﻿[
+  {
+    "user_name": "Иван",
+    "second_name": "Петров",
+    "login": "petrucha342",
+    "password": "1234",
+    "role": "director"
+  },
+  {
+    "user_name": "Petya",
+    "second_name": "Coshkadavov",
+    "login": "coshkadavov",
+    "password": "64334",
+    "role": "manager"
+
+  },
+  {
+    "user_name": "Алсу",
+    "second_name": "Игоревна",
+    "login": "alsuha543",
+    "password": "7865",
+    "role": "lawyer"
+
+  },
+  {
+    "user_name": "Илья",
+    "second_name": "Сидоров",
+    "login": "sidorenyich987",
+    "password": "44343",
+    "role": "accountant"
+  }
+]
