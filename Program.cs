@@ -1,5 +1,6 @@
 using KSU_BProcesses.Controllers.MongoDB;
 using KSU_BProcesses.Services;
+using KSU_BusinessProcesses.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("Mo
 builder.Services.AddSingleton<LoginIntoProject>();
 builder.Services.AddSingleton<DirectoryStorage>();
 builder.Services.AddSingleton<EstateService>();
+builder.Services.AddSingleton<DigitalSignatureManager>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
