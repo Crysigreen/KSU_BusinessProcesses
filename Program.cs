@@ -12,6 +12,7 @@ builder.Services.AddSingleton<LoginIntoProject>();
 builder.Services.AddSingleton<DirectoryStorage>();
 builder.Services.AddSingleton<EstateService>();
 builder.Services.AddSingleton<DigitalSignatureManager>();
+builder.Services.AddSingleton<MailingService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
