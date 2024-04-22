@@ -18,7 +18,7 @@ namespace KSU_BusinessProcesses.Controllers
         [Route("Mailing")]
         public async Task<IActionResult> SendMessage(string email)
         {
-            _mailingService.SendEmail(email, "Тема письма", "Тест письма: тест!");
+            _mailingService.SendEmail(email);
             return Ok();
         }
     }
