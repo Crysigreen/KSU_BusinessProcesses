@@ -14,7 +14,7 @@ namespace KSU_BusinessProcesses.Controllers
         {
             _mailingService = mailingService;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("Mailing")]
         public async Task<IActionResult> SendMessage(string email)
         {
